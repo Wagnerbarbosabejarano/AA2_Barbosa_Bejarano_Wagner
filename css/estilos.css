@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #191970;
+  font-family: "Open Sans", sans-serif;
+}
+body .contenedor {
+  width: 80%;
+  margin: auto;
+}
+body header {
+  padding: 30px 0;
+}
+body header .logo {
+  font-family: "Righteous", cursive;
+  font-weight: normal;
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 0.5em;
+}
+@media screen and (max-width: 800px) {
+  body header .logo {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+}
+body .pelicula-principal {
+  font-size: 16px;
+  min-height: 40.62em;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(../img/portada.jpg);
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 3.12em;
+  display: flex;
+  align-items: end;
+}
+body .pelicula-principal .contenedor {
+  margin: 0 auto;
+  margin-bottom: 1.25em;
+}
+body .pelicula-principal .titulo {
+  font-weight: 600;
+  font-size: 3.12em;
+  margin-bottom: 0.4em;
+}
+body .pelicula-principal .descripcion {
+  font-weight: 600;
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+  max-width: 100%;
+}
+@media screen and (max-width: 800px) {
+  body .pelicula-principal .descripcion {
+    font-size: 30px;
+  }
+}
+body .pelicula-principal .boton {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 0.31em;
+  padding: 0.93em 1.87em;
+  color: #fff;
+  margin-right: 1.25em;
+  cursor: pointer;
+  font-size: 1.12em;
+  transition: 0.3s ease all;
+}
+body .pelicula-principal .boton:hover {
+  background: #fff;
+  color: #000;
+}
+body .pelicula-principal .boton i {
+  margin-right: 1.25em;
+}
+body .cartelera {
+  font-family: "Righteous", cursive;
+  font-weight: normal;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 0.5em;
+}/*# sourceMappingURL=estilos.css.map */
